@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Changed from a class selector to an element selector by removing the dot infront of "header" */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,19 @@ header {
     color: #ffffff;
 }
 
+/* Changed from a class selector to an element selector by removing the dot infront of "header" */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changed from a class selector to an element selector by removing the dot infront of "header" */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Changed from selecting all divs nested inside of elements with a class of header
+ to selecting all nav elements nested in header elements */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +37,14 @@ header nav {
     font-size: 20px;
 }
 
+/* Changed from selecting all ul elements nested in div elements nested in elements with a class of header
+ to selecting all ul elements nested in nav elements nested in header elements */
 header nav ul {
     list-style-type: none;
 }
 
+/* Changed from selecting all li elements nested in ul elements nested in div elements nested in elements with a class of header 
+to selecting all li elements nested in ul elements nested in nav elements nested in header elements */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -187,6 +196,7 @@ p {
     font-size: 36px;
 }
 
+/* Changed class selector to element selector by removing the dot before "footer" */
 footer {
     padding: 30px;
     clear: both;
@@ -194,6 +204,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/* Changed from selecting h2 elements nested in elements with a class of footer to selecting h4 elements nested in footer elements */
+footer h4 {
     font-size: 20px;
 }
